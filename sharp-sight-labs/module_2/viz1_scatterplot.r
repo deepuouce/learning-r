@@ -8,7 +8,7 @@ df.test_data <- data.frame(foo = rnorm(50, mean=5, sd=2),
 
 ## BASIC SCATTERPLOT
 ggplot(data=df.test_data, aes(x=foo, y=bar)) + # adding a layer
-  geom_point()
+  geom_point(size=6)
 
 ## CHANGE SIZE
 ggplot(data=df.test_data, aes(x=foo, y=bar)) +

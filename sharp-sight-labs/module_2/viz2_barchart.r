@@ -1,4 +1,4 @@
-library(ggplo2)
+library(ggplot2)
 
 df.dummy_data <- data.frame(category_var = c("A", "B", "C", "D", "E"),
                             numeric_var = c(5,2,9,4,5))

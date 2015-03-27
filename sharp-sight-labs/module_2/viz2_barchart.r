@@ -8,6 +8,7 @@ df.dummy_data <- data.frame(category_var = c("A", "B", "C", "D", "E"),
 ggplot(data=df.dummy_data, aes(x=category_var, y=numeric_var)) +
   geom_bar(stat="identity") # stat="identity" means that using y axes as the value
 
+
 ## COUNT OF RECORDS
 ### using san francisco crime data set
 ggplot(data=df.sf_crime, aes(x=hour)) +

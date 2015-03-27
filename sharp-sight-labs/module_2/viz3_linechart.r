@@ -28,4 +28,4 @@ ggplot(data=df.dummy_data, aes(x=date, y=dummy_metric)) +
 ### blank
 
 ggplot(data=df.dummy_data, aes(x=date, y=dummy_metric)) +
-  geom_line(linetype="twodash", size=5)
+  geom_line(linetype="longdash", size=5)

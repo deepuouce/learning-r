@@ -1,6 +1,6 @@
 # Basic Visualization Charts with R
 
-In this note, we'll be exploring different charts to use for our data visualization. We are going to explore the 
+In this note, we'll be exploring different charts to be used in our data visualization. Also in this note is the utilization of different attributes, such as changing colors, width and making multiple charts.
 
 Charts in this note:
 1. Scatterplot
@@ -204,8 +204,11 @@ ggplot(data=df.histogram_dummy, aes(x=x_var)) +
 
 ## 5. Multiple charts
 
+Also known as the [trellis chart](http://trellischarts.com/what-is-a-trellis-chart)
+
 ---
 
 Source:
 
-http://www.quora.com/How-would-linear-regression-be-described-and-explained-in-laymans-terms
+- http://www.quora.com/How-would-linear-regression-be-described-and-explained-in-laymans-terms
+- http://sape.inf.usi.ch/quick-reference/ggplot2/facet

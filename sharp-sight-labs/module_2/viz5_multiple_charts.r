@@ -41,7 +41,7 @@ ggplot(data=diamonds, aes(x=price)) +
 ggplot(data=diamonds, aes(x=carat, y=price)) +
   geom_point() +
   facet_wrap(~cut)
-
+  
 ## more example
 ggplot(data=df.car_specs, aes(x=horsepower_bhp, y=top_speed_mph)) +
   geom_point(alpha=.6)
